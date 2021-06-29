@@ -52,6 +52,8 @@
 
 !include MdePkg/MdeLibs.dsc.inc
 
+!include ArmVirtDarwinQemuPkg/DarwinLibs.dsc.inc
+
 [LibraryClasses.common]
   ArmLib|ArmPkg/Library/ArmLib/ArmBaseLib.inf
   ArmMmuLib|ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib.inf

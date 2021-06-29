@@ -17,6 +17,7 @@
 #include <Library/PlatformBmPrintScLib.h>
 #include <Library/QemuBootOrderLib.h>
 #include <Library/UefiBootManagerLib.h>
+#include <Library/Darwin/AppleSupportLib.h>
 #include <Protocol/DevicePath.h>
 #include <Protocol/FirmwareVolume2.h>
 #include <Protocol/GraphicsOutput.h>
@@ -690,6 +691,11 @@ PlatformBootManagerBeforeConsole (
   UINT16        FrontPageTimeout;
   RETURN_STATUS PcdStatus;
   EFI_STATUS    Status;
+
+  //
+  // Initialize AppleSupportLib
+  //
+  InitializeAppleSupport (gImageHandle, gST);
 
   //
   // Signal EndOfDxe PI Event

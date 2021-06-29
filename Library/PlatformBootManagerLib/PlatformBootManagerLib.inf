@@ -36,6 +36,7 @@
   ShellPkg/ShellPkg.dec
 
 [LibraryClasses]
+  AppleSupportLib
   BaseLib
   BaseMemoryLib
   BootLogoLib

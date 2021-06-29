@@ -13,3 +13,8 @@ ArmVirtDarwinQemuPkg/OpenHfsPlus/OpenHfsPlus.inf
 # APFS Support
 #
 ArmVirtDarwinQemuPkg/ApfsDriverLoader/ApfsDriverLoader.inf
+
+#
+# AppleSupportLib requirement
+#
+IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
