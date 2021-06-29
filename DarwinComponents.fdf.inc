@@ -8,3 +8,8 @@
 # HFS+ Support
 #
 INF  ArmVirtDarwinQemuPkg/OpenHfsPlus/OpenHfsPlus.inf
+
+#
+# APFS Support
+#
+INF  ArmVirtDarwinQemuPkg/ApfsDriverLoader/ApfsDriverLoader.inf
