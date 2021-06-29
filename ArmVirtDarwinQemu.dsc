@@ -295,6 +295,11 @@
 ################################################################################
 [Components.common]
   #
+  # Darwin components
+  #
+!include ArmVirtDarwinQemuPkg/DarwinComponents.dsc.inc
+
+  #
   # PEI Phase modules
   #
   ArmPlatformPkg/PrePeiCore/PrePeiCoreUniCore.inf
