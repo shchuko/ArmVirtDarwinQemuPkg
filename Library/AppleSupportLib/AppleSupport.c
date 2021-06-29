@@ -108,8 +108,8 @@ InitializeAppleSupport (
   Status = InitializeAppleBoot(ImageHandle);
   ASSERT_EFI_ERROR(Status);
 
-  Status = InitializeSmBios ();
-  ASSERT_EFI_ERROR (Status);
+//  Status = InitializeSmBios ();
+//  ASSERT_EFI_ERROR (Status);
 
   return Status;
 }
